@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Umyproj.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="conteiner">
+            <div class="text">
+                <h1>Выбирай игрока🦖</h1>
+                <h1>Делай ставку!!!</h1>
+                <h1>Выигрывай МИЛЛИОН бонусов</h1>
+            </div>
+            <div class="bank">
+                <p>
+                    <span>Баланс:</span>
+                    <span id="money">100</span>
+                    <span>🔥</span>
+                </p>
+            </div>
+            <div class="convas">
+                <div class="buttons">
+                    <button onclick="butt(0)" id="but1" class="but"></button>
+                    <button onclick="butt(1)" id="but2" class="but butt"></button>
+                    <button onclick="butt(2)" id="but3" class="but"></button> 
+                 </div>
+                <canvas id="canvas"></canvas>
+             
+            </div>
+            <div class="koz">
+                <div class="bet">
+                    <div class="min" onclick="min()">
+                        <p>-</p>
+                    </div>
+                    <div>
+                        <p id="chan">10</p>
+                    </div>
+                    <div class="plus" onclick="plus()">
+                        <p>+</p>
+                    </div>
+                </div>
+
+                <button class="start" onclick="start()"><p>Играть</p></button>
+            </div>
+            
+        </div>
+
+
+
+
+    </div>
+    
+    <script src="scriptmyproj.js"> </script>
+</body>
+</html>

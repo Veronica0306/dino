@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+
+}
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.834);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-shadow: 0px 0px 3px 3px rgb(175, 241, 110);
+    
+} 
+.buttons{
+    width: 10%;
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.but{
+    width: 30%;
+    height: 5vh;
+    border-radius: 20px;
+}
+.convas{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    margin-top: 13%;
+    margin-bottom: 11%;
+}
+.koz{
+    width: 60% ;
+    height: 20vh ;
+    display: flex;
+    justify-content: space-between; 
+}
+.bet{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: rgb(236, 236, 236);
+}
+.bet p{
+    font-size: 23pt;
+}
+.min{
+    user-select: none;
+}
+.plus{
+    user-select: none;
+}
+.min:active{
+    cursor: pointer;
+}
+.plus:hover{
+    cursor: pointer;
+}
+.min:hover{
+    cursor: pointer;
+}
+.plus:hover{
+    cursor: pointer;
+}
+#chan{
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.start{
+    width: 50%;
+    height: 10vh;
+    border-radius: 15px;
+}
+.start p{
+    font-size: 23pt;
+}
+.bank p{
+    font-size: 23pt;
+}
